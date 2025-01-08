@@ -19,8 +19,6 @@ BugReports: https://github.com/usa-npn/rnpn/issues
 Depends: 
     R (>= 3.5.0)
 Imports:
-    curl,
-    data.table (>= 1.9.6),
     dplyr,
     httr (>= 1.1.0),
     httr2,
@@ -28,7 +26,8 @@ Imports:
     magrittr,
     rlang,
     tibble,
-    xml2
+    xml2,
+    yyjsonr
 Suggests:
     covr,
     ggplot2,
